@@ -6,15 +6,14 @@ permalink: /diy/
 
 # DIY
 
-Hier finden sich Bauanleitungen, Werkstattprojekte, Materiallisten und praktische Lösungen zum Selbermachen.
+Building instructions, workshop projects, material lists and practical homemade solutions.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Werkbank selber bauen](werkbank/)
+<!-- Add new articles here, for example:
+- [Building a workbench](workbench/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

@@ -6,15 +6,14 @@ permalink: /energy/
 
 # Energy
 
-Hier sammle ich Informationen zu Energieverbrauch, Photovoltaik, Speicherung, Messung und Optimierung.
+Information about energy consumption, photovoltaics, storage, measurement and optimisation.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Stromverbrauch messen](stromverbrauch/)
+<!-- Add new articles here, for example:
+- [Measuring electricity consumption](electricity-consumption/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

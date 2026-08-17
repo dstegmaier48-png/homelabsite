@@ -6,15 +6,14 @@ permalink: /digital/
 
 # Digital
 
-Hier dokumentiere ich Software, digitale Werkzeuge, Workflows und kleine Automatisierungen.
+Software, digital tools, workflows and small automations.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Mein digitaler Workflow](workflow/)
+<!-- Add new articles here, for example:
+- [My digital workflow](workflow/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

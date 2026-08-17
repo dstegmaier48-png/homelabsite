@@ -6,15 +6,14 @@ permalink: /homelab/
 
 # HomeLab
 
-Hier entstehen Dokumentationen zu Servern, Netzwerk, Self-Hosting, Backups und Automatisierung.
+Documentation about servers, networking, self-hosting, backups and automation.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Mein erster Server](mein-erster-server/)
+<!-- Add new articles here, for example:
+- [My first server](my-first-server/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

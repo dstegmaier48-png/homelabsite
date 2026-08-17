@@ -6,15 +6,14 @@ permalink: /renovation/
 
 # Renovation
 
-Hier dokumentiere ich Planung, Materialien, Kosten, Fortschritte und Erfahrungen rund um Renovierungsprojekte.
+Planning, materials, costs, progress and experiences from renovation projects.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Renovierung des Arbeitszimmers](arbeitszimmer/)
+<!-- Add new articles here, for example:
+- [Renovating the home office](home-office/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

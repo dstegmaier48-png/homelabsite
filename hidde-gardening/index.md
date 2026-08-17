@@ -1,20 +1,19 @@
 ---
 layout: page
-title: „Hidde“ Gardening
+title: “Hidde” Gardening
 permalink: /hidde-gardening/
 ---
 
-# „Hidde“ Gardening
+# “Hidde” Gardening
 
-Hier sammle ich Gartenprojekte, Pflanzpläne, Beobachtungen und saisonale Aufgaben.
+Garden projects, planting plans, observations and seasonal tasks.
 
-## Inhalte
+## Articles
 
-Noch keine Beiträge vorhanden.
+No articles have been published yet.
 
-<!-- Neue Beiträge hier ergänzen, zum Beispiel:
-- [Das erste Hochbeet](hochbeet/)
+<!-- Add new articles here, for example:
+- [The first raised bed](raised-bed/)
 -->
 
-[Zurück zur Übersicht]({{ '/' | relative_url }})
-
+[Back to the overview]({{ '/' | relative_url }})

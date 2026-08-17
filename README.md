@@ -1,37 +1,40 @@
 # HomeLab Site
 
-Markdown-basierte Website für GitHub Pages mit den Rubriken HomeLab, Renovation, „Hidde“ Gardening, DIY, Digital und Energy.
+Markdown-based GitHub Pages website with the HomeLab, Renovation, “Hidde” Gardening, DIY, Digital and Energy categories.
 
-## Neuen Beitrag anlegen
+## Creating an article
 
-1. `templates/beitrag.md` kopieren.
-2. Die Kopie in der passenden Rubrik als `rubrik/mein-beitrag.md` speichern.
-3. Im Front Matter `title`, `description` und `permalink` anpassen.
-4. Den neuen Beitrag in `rubrik/index.md` unter **Inhalte** verlinken.
-5. Bilder unter `assets/images/rubrik/` ablegen und mit `relative_url` einbinden.
+1. Copy `templates/article.md`.
+2. Save the copy in the appropriate category, for example as `category/my-article.md`.
+3. Update `title`, `description` and `permalink` in the front matter.
+4. Link the new article under **Articles** in the category's `index.md`.
+5. Store images under `assets/images/category/` and include them using `relative_url`.
 
-Beispiel für einen Beitrag unter `homelab/proxmox.md`:
+Example article at `homelab/proxmox.md`:
 
 ```yaml
 ---
 layout: page
-title: "Mein Proxmox-Server"
-description: "Installation und Konfiguration meines Proxmox-Servers"
+title: "My Proxmox server"
+description: "Installing and configuring my Proxmox server"
 permalink: /homelab/proxmox/
 ---
 ```
 
-Der Link auf der Rubrikseite lautet dann:
+The corresponding link on the category page is:
 
 ```markdown
-- [Mein Proxmox-Server](proxmox/)
+- [My Proxmox server](proxmox/)
 ```
 
-## Veröffentlichung
+## Publishing
 
-Die Website wird bei jedem Push auf den Branch `main` automatisch über GitHub Actions gebaut und veröffentlicht.
+The website is built and deployed automatically by GitHub Actions after every push to the `main` branch.
 
-Einmalig im GitHub-Repository unter **Settings → Pages → Build and deployment → Source** die Option **GitHub Actions** auswählen.
+In the GitHub repository, select **GitHub Actions** once under **Settings → Pages → Build and deployment → Source**.
 
-Danach ist die Website unter <https://dstegmaier48-png.github.io/homelabsite/> erreichbar.
+The website will then be available at <https://dstegmaier48-png.github.io/homelabsite/>.
 
+## Legal pages
+
+Before publishing, replace every `REPLACE BEFORE PUBLISHING` placeholder in `legal-notice.md` and `privacy-policy.md` with the website owner's real details. Name, a serviceable postal address and email address must not remain placeholders on the public website.

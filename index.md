@@ -1,18 +1,21 @@
 ---
 layout: home
-title: Willkommen
+title: Welcome
 ---
 
-# Projekte, Wissen und Fortschritt
+# Projects, knowledge and progress
 
-Auf dieser Website dokumentiere ich Projekte rund um mein Zuhause und meine Technik. Wähle eine Rubrik, um mehr zu erfahren.
+This website documents projects involving my home and technology. Choose a category to learn more.
 
-## Rubriken
+## Categories
 
-- [HomeLab]({{ '/homelab/' | relative_url }}) – Server, Netzwerk, Dienste und Automatisierung
-- [Renovation]({{ '/renovation/' | relative_url }}) – Planung, Fortschritt und Erfahrungen bei Renovierungen
-- [„Hidde“ Gardening]({{ '/hidde-gardening/' | relative_url }}) – Gartenprojekte, Pflanzen und saisonale Arbeiten
-- [DIY]({{ '/diy/' | relative_url }}) – Selbstgebaute Lösungen und Werkstattprojekte
-- [Digital]({{ '/digital/' | relative_url }}) – Software, digitale Werkzeuge und Arbeitsabläufe
-- [Energy]({{ '/energy/' | relative_url }}) – Energieverbrauch, Erzeugung und Optimierung
+- [HomeLab]({{ '/homelab/' | relative_url }}) – servers, networking, services and automation
+- [Renovation]({{ '/renovation/' | relative_url }}) – planning, progress and renovation experiences
+- [“Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) – garden projects, plants and seasonal work
+- [DIY]({{ '/diy/' | relative_url }}) – homemade solutions and workshop projects
+- [Digital]({{ '/digital/' | relative_url }}) – software, digital tools and workflows
+- [Energy]({{ '/energy/' | relative_url }}) – energy consumption, generation and optimisation
 
+---
+
+[Legal Notice]({{ '/legal-notice/' | relative_url }}) · [Privacy Policy]({{ '/privacy-policy/' | relative_url }})
