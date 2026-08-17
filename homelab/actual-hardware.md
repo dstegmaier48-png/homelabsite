@@ -11,7 +11,7 @@ The following diagram documents the current HomeLab hardware setup. The text sho
 
 ![HomeLab hardware overview showing the hypervisor, AI host, NAS and external backup]({{ '/assets/images/homelab/lab-hardware-v1.png' | relative_url }})
 
-*Diagram: “4Rot3x – HW HomeLab”, version 1, August 2026, D. Stegmaier.*
+*Diagram: “4Rot3x – HW HomeLab”, version 1.1, August 2026, D. Stegmaier.*
 
 ## Hardware overview
 
@@ -19,7 +19,7 @@ The following diagram documents the current HomeLab hardware setup. The text sho
 |---|---|---|---|
 | Hypervisor | Intel Core 5 125H; 32 GB DDR5 | Proxmox 9.2 | Hypervisor |
 | AI host | AMD Ryzen 5 8400F; 32 GB DDR5; Radeon RX 9060 XT | Windows 11; LM Studio | Flexible AI host |
-| NAS | UGREEN DXP2800; 8 GB DDR5 RAM; 1 × 8 TB in RAID 1 | Not specified | NAS |
+| NAS | UGREEN DXP2800; 8 GB DDR5 RAM; 2 × 8 TB in RAID 1 | Not specified | NAS |
 | On-site backup | WD external 8 TB drive | Not specified | Weekly on-site backup |
 
 ## Hypervisor
@@ -60,7 +60,7 @@ The following diagram documents the current HomeLab hardware setup. The text sho
 
 - UGREEN DXP2800
 - 8 GB DDR5 memory
-- 1 × 8 TB in RAID 1
+- 2 × 8 TB in RAID 1
 
 ### Purpose
 
@@ -75,10 +75,6 @@ The following diagram documents the current HomeLab hardware setup. The text sho
 ### Purpose
 
 - Weekly on-site backup
-
-## Transcription note
-
-The specification above reflects the labels visible in the supplied diagram. In particular, “1 × 8 TB in RAID 1” has been retained as written, although RAID 1 normally requires at least two drives.
 
 ---
 

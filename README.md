@@ -34,7 +34,3 @@ The website is built and deployed automatically by GitHub Actions after every pu
 In the GitHub repository, select **GitHub Actions** once under **Settings → Pages → Build and deployment → Source**.
 
 The website will then be available at <https://dstegmaier48-png.github.io/labsite/>.
-
-## Legal pages
-
-Before publishing, replace every `REPLACE BEFORE PUBLISHING` placeholder in `legal-notice.md` and `privacy-policy.md` with the website owner's real details. Name, a serviceable postal address and email address must not remain placeholders on the public website.

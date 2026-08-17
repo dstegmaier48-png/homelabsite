@@ -13,8 +13,6 @@ header_pages:
   - digital/index.md
   - energy/index.md
   - resume/index.md
-  - legal-notice.md
-  - privacy-policy.md
 
 exclude:
   - README.md
