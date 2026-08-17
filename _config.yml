@@ -1,0 +1,21 @@
+title: HomeLab Site
+description: Projekte, Dokumentation und Ideen rund um Haus, Garten, Technik und Energie.
+url: "https://dstegmaier48-png.github.io"
+baseurl: "/homelabsite"
+lang: de-DE
+theme: minima
+
+header_pages:
+  - homelab/index.md
+  - renovation/index.md
+  - hidde-gardening/index.md
+  - diy/index.md
+  - digital/index.md
+  - energy/index.md
+
+exclude:
+  - README.md
+  - templates
+  - Gemfile
+  - Gemfile.lock
+
