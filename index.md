@@ -20,8 +20,8 @@ This website documents projects involving my home and technology. Choose a categ
 
 ## ChangeLog
 
+- **17 August 2026** — [`ef5d637`](https://github.com/dstegmaier48-png/labsite/commit/ef5d637) Added the Impressum, GDPR privacy policy and ChangeLog maintenance rule.
 - **17 August 2026** — [`79a0120`](https://github.com/dstegmaier48-png/labsite/commit/79a0120) Added the software overview, updated the HomeLab hardware documentation and removed the legal pages.
 - **17 August 2026** — [`8bac653`](https://github.com/dstegmaier48-png/labsite/commit/8bac653) Added the Actual Hardware overview with its annotated hardware diagram.
 - **17 August 2026** — [`7f186ab`](https://github.com/dstegmaier48-png/labsite/commit/7f186ab) Renamed the website title from HomeLab Site to Lab Site.
 - **17 August 2026** — [`29ca5fc`](https://github.com/dstegmaier48-png/labsite/commit/29ca5fc) Updated GitHub Pages configuration after the repository was renamed to `labsite`.
-- **17 August 2026** — [`91c6b90`](https://github.com/dstegmaier48-png/labsite/commit/91c6b90) Added the résumé, portrait and dark visual theme.
