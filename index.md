@@ -5,7 +5,7 @@ title: Welcome
 
 # Projects, knowledge and progress
 
-This website documents projects involving my home and technology. Choose a category to learn more.
+This website documents my projects involving my home, digital-projects and gardening. Choose a category to learn more.
 
 ## Categories
 
