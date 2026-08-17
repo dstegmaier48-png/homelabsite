@@ -33,7 +33,7 @@ The website is built and deployed automatically by GitHub Actions after every pu
 
 In the GitHub repository, select **GitHub Actions** once under **Settings → Pages → Build and deployment → Source**.
 
-The website will then be available at <https://dstegmaier48-png.github.io/homelabsite/>.
+The website will then be available at <https://dstegmaier48-png.github.io/labsite/>.
 
 ## Legal pages
 

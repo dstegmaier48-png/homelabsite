@@ -1,7 +1,7 @@
 title: HomeLab Site
 description: Projects, documentation and ideas about home, garden, technology, energy and professional experience.
 url: "https://dstegmaier48-png.github.io"
-baseurl: "/homelabsite"
+baseurl: "/labsite"
 lang: en
 theme: minima
 
