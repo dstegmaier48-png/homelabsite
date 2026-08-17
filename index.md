@@ -19,8 +19,8 @@ This website documents my projects involving my home, digital-projects and garde
 
 ## ChangeLog
 
+- **17 August 2026** — [`0edac26`](https://github.com/dstegmaier48-png/labsite/commit/0edac26) Deleted the remaining DIY page and category artifacts.
 - **17 August 2026** — [`a013dd1`](https://github.com/dstegmaier48-png/labsite/commit/a013dd1) Removed DIY from the root navigation, home-page categories and repository overview.
 - **17 August 2026** — [`b712dcf`](https://github.com/dstegmaier48-png/labsite/commit/b712dcf) Added the “Hidde” location artwork, Biomeiler project and global translucent site background.
 - **17 August 2026** — [`cefdf85`](https://github.com/dstegmaier48-png/labsite/commit/cefdf85) Refined the home-page introduction to highlight home, digital and gardening projects.
 - **17 August 2026** — [`ef5d637`](https://github.com/dstegmaier48-png/labsite/commit/ef5d637) Added the Impressum, GDPR privacy policy and ChangeLog maintenance rule.
-- **17 August 2026** — [`79a0120`](https://github.com/dstegmaier48-png/labsite/commit/79a0120) Added the software overview, updated the HomeLab hardware documentation and removed the legal pages.
