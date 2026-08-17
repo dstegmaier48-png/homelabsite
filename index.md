@@ -15,6 +15,7 @@ This website documents projects involving my home and technology. Choose a categ
 - [DIY]({{ '/diy/' | relative_url }}) – homemade solutions and workshop projects
 - [Digital]({{ '/digital/' | relative_url }}) – software, digital tools and workflows
 - [Energy]({{ '/energy/' | relative_url }}) – energy consumption, generation and optimisation
+- [Résumé]({{ '/resume/' | relative_url }}) – professional experience, education, certifications and expertise
 
 ---
 
