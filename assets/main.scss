@@ -15,9 +15,21 @@
   --accent-hover: #79c0ff;
 }
 
-html,
-body {
+html {
   background: var(--background);
+  color: var(--text);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background);
+  background-image:
+    linear-gradient(rgba(13, 17, 23, 0.88), rgba(13, 17, 23, 0.88)),
+    url("{{ '/assets/images/site-background.jpg' | relative_url }}");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--text);
 }
 
