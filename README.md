@@ -1,6 +1,6 @@
 # HomeLab Site
 
-Markdown-based GitHub Pages website with the HomeLab, Renovation, “Hidde” Gardening, Digital, Energy and Résumé categories.
+Markdown-based GitHub Pages website with the HomeLab, Renovation, “Hidde” Gardening, Digital and Résumé categories.
 
 ## Creating an article
 
