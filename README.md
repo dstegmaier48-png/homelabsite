@@ -34,3 +34,7 @@ The website is built and deployed automatically by GitHub Actions after every pu
 In the GitHub repository, select **GitHub Actions** once under **Settings → Pages → Build and deployment → Source**.
 
 The website will then be available at <https://dstegmaier48-png.github.io/labsite/>.
+
+## ChangeLog maintenance
+
+Every website change must update the **ChangeLog** section in `index.md`. Add the newest commit at the top and retain no more than the five most recent commits. Each entry must include the commit date, abbreviated commit hash with a GitHub link, and a concise English summary of the change.

@@ -13,6 +13,7 @@ header_pages:
   - digital/index.md
   - energy/index.md
   - resume/index.md
+  - impressum.md
 
 exclude:
   - README.md
