@@ -3,11 +3,9 @@ layout: home
 title: Welcome 2 my Lab-Site
 ---
 
-# Projects, knowledge and progress
-
 This website documents my projects involving my home, digital-projects and gardening. Choose a category to learn more.
 
-## Categories
+# Categories
 
 - [Renovation]({{ '/renovation/' | relative_url }}) – planning, progress and renovation experiences
 - [“Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) – garden projects, plants and seasonal work
@@ -15,7 +13,7 @@ This website documents my projects involving my home, digital-projects and garde
 - [Résumé]({{ '/resume/' | relative_url }}) – professional experience, education, certifications and expertise
 - [Impressum]({{ '/impressum/' | relative_url }}) – provider identification and contact information
 
-## ChangeLog
+# ChangeLog
 
 - **18 August 2026** — [`0902f3c`](https://github.com/dstegmaier48-png/labsite/commit/0902f3c) Translated the Impressum into German and added the correct DDG and GDPR privacy references.
 - **18 August 2026** — [`a23ed03`](https://github.com/dstegmaier48-png/labsite/commit/a23ed03) Added an AI-content transparency notice and human-in-the-loop review statement to the Impressum.
