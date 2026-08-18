@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: Welcome 2 my Lab-Site
 ---
 
 # Projects, knowledge and progress
