@@ -11,9 +11,6 @@ Software, digital tools, workflows and small automations.
 ## Sections
 
 - [HomeLab]({{ '/digital/homelab/' | relative_url }}) – servers, networking, services, hardware and automation
-
-## Articles
-
 - [LabSite]({{ '/digital/labsite/' | relative_url }}) – the Markdown, Git, Jekyll and GitHub Pages publishing workflow behind this website
 - [Open Sun Tracker]({{ '/digital/open-sun-tracker/' | relative_url }}) – an open-source solar-tracking system developed as my 2014 bachelor's thesis
 
