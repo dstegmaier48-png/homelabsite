@@ -1,42 +1,46 @@
 ---
 layout: page
 title: Impressum
-description: Provider identification, contact details and editorial responsibility.
+description: Anbieterkennzeichnung, Kontaktdaten und redaktionelle Verantwortlichkeit.
 permalink: /impressum/
 ---
 
 # Impressum
 
-Information pursuant to Section 5 of the German Digital Services Act (Digitale-Dienste-Gesetz, DDG).
+Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).
 
-## Provider
-
-Daniel Stegmaier  
-Altmannsrot 35  
-73479 Ellwangen  
-Germany
-
-## Contact
-
-Email: [lab@danielstegmaier.de](mailto:lab@danielstegmaier.de)
-
-## Responsibility for journalistic-editorial content
-
-Responsible pursuant to Section 18(2) of the German State Media Treaty (Medienstaatsvertrag, MStV):
+## Anbieter
 
 Daniel Stegmaier  
 Altmannsrot 35  
 73479 Ellwangen  
-Germany
+Deutschland
 
-## Website content
+## Kontakt
 
-This website serves as a professional and personal presentation. In particular, it contains information about my professional background, portfolio, personal interests, own projects and freelance services, as well as regularly published articles.
+E-Mail: [lab@danielstegmaier.de](mailto:lab@danielstegmaier.de)
 
-## AI-generated content and human review
+## Verantwortlich für journalistisch-redaktionelle Inhalte
 
-All content on this website has been generated with the assistance of artificial intelligence. A human-in-the-loop process is used to review, verify and approve the content before publication. Final editorial responsibility remains with the website owner.
+Verantwortlich gemäß § 18 Abs. 2 Medienstaatsvertrag (MStV):
+
+Daniel Stegmaier  
+Altmannsrot 35  
+73479 Ellwangen  
+Deutschland
+
+## Inhalt des Internetauftritts
+
+Diese Website dient der beruflichen und privaten Selbstdarstellung. Sie enthält insbesondere Informationen über meinen beruflichen Werdegang, mein Portfolio, private Interessen, eigene Projekte und freiberufliche Leistungen sowie regelmäßig veröffentlichte Beiträge.
+
+## KI-generierte Inhalte und menschliche Prüfung
+
+Alle Inhalte dieser Website wurden mit Unterstützung künstlicher Intelligenz erstellt. Vor der Veröffentlichung werden die Inhalte im Rahmen eines Human-in-the-loop-Prozesses von einem Menschen geprüft, verifiziert und freigegeben. Die abschließende redaktionelle Verantwortung verbleibt beim Betreiber dieser Website.
+
+## Datenschutz
+
+Informationen zur Verarbeitung personenbezogener Daten und zu den Rechten betroffener Personen enthält die [DSGVO-Datenschutzerklärung]({{ '/impressum/privacy/' | relative_url }}).
 
 ---
 
-[GDPR Privacy Policy]({{ '/impressum/privacy/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[DSGVO-Datenschutzerklärung]({{ '/impressum/privacy/' | relative_url }}) · [Zurück zur Startseite]({{ '/' | relative_url }})
