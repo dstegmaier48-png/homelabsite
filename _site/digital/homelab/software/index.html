@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Software | DaSte-Labs</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Software" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Current HomeLab software, virtualisation platform, dashboards, home automation and container services." />
+<meta name="twitter:description" property="og:description" content="Current HomeLab software, virtualisation platform, dashboards, home automation and container services." />
+<link rel="canonical" href="http://localhost:4000/labsite/digital/homelab/software/" />
+<meta property="og:url" content="http://localhost:4000/labsite/digital/homelab/software/" />
+<meta property="og:site_name" content="DaSte-Labs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Software" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Current HomeLab software, virtualisation platform, dashboards, home automation and container services.","headline":"Software","url":"http://localhost:4000/labsite/digital/homelab/software/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/labsite/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/labsite/feed.xml" title="DaSte-Labs" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/labsite/">DaSte-Labs</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/labsite/renovation/">Renovation</a><a class="page-link" href="/labsite/hidde-gardening/">“Hidde” Gardening</a><a class="page-link" href="/labsite/digital/">Digital</a><a class="page-link" href="/labsite/resume/">Résumé</a><a class="page-link" href="/labsite/impressum/">Impressum</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Software</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="software">Software</h1>
+
+<p>This page documents the software running across the HomeLab. The information below was transcribed and summarised from screenshots captured on 17 August 2026. Status values are a snapshot from that date rather than a live service monitor.</p>
+
+<h2 id="platform-overview">Platform overview</h2>
+
+<p>The environment is built around Proxmox Virtual Environment and several Linux and Windows guests. Portainer is used to manage container stacks, Homepage provides a central service dashboard, and Home Assistant handles monitoring and automation.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Software</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Virtualisation</td>
+      <td>Proxmox Virtual Environment 9.2.2</td>
+      <td>Runs the HomeLab virtual machines and containers</td>
+    </tr>
+    <tr>
+      <td>Containers</td>
+      <td>Portainer</td>
+      <td>Manages Docker stacks and container workloads</td>
+    </tr>
+    <tr>
+      <td>Dashboard</td>
+      <td>Homepage</td>
+      <td>Central entry point and service-status overview</td>
+    </tr>
+    <tr>
+      <td>Automation</td>
+      <td>Home Assistant</td>
+      <td>Home automation, sensors, switches and energy monitoring</td>
+    </tr>
+    <tr>
+      <td>Monitoring</td>
+      <td>Uptime Kuma, WhatsUpDocker, MySpeed and UpSnap</td>
+      <td>Availability, update, network-speed and wake-up management</td>
+    </tr>
+    <tr>
+      <td>AI</td>
+      <td>LM Studio/OpenWebUI, Ollama/OpenWebUI, Stable Diffusion and Whisper</td>
+      <td>Local AI inference, image generation and speech processing</td>
+    </tr>
+    <tr>
+      <td>Agentic AI</td>
+      <td>ZeroClaw and Hermes Agent</td>
+      <td>Autonomous AI agents for task execution, orchestration and tool-assisted workflows</td>
+    </tr>
+    <tr>
+      <td>Storage and backup</td>
+      <td>Duplicati, OneDrive and Syncthing</td>
+      <td>Backup and file synchronisation</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="homepage-dashboard">Homepage dashboard</h2>
+
+<p><img src="/labsite/assets/images/digital/homelab/software/homepage-dashboard.png" alt="Homepage dashboard with main containers, AI and secondary containers, local network services and a calendar" /></p>
+
+<p>The Homepage dashboard groups the environment into three main areas:</p>
+
+<ul>
+  <li><strong>Main containers:</strong> Home Assistant, Portainer, WhatsUpDocker, File Browser, MySpeed, UpSnap, Roundcube, Ollama WebUI, Open WebUI, Open Notebook, Automatic1111 and Notemark.</li>
+  <li><strong>AI and secondary containers:</strong> Uptime Kuma, IT-Tools, Linux Cockpit, Duplicati, Zigbee2MQTT, Excalidraw, Prunemate, Dozzle, Dockhand, OpenProject, n8n, Stellantis OAuth, SearXNG and additional Portainer and File Browser instances.</li>
+  <li><strong>Local network:</strong> network endpoints, Cisco switching, Fronius, Shelly, the Proxmox host, NAS services and Dockhand.</li>
+</ul>
+
+<p>The screenshot also shows status and monitoring widgets, including Home Assistant temperatures, Portainer update information, Uptime Kuma availability and a calendar integration. Some dashboard integrations were reporting API errors when the screenshot was taken.</p>
+
+<h2 id="proxmox-virtual-environment">Proxmox Virtual Environment</h2>
+
+<p><img src="/labsite/assets/images/digital/homelab/software/proxmox-overview.png" alt="Proxmox Virtual Environment node overview" /></p>
+
+<p>The screenshot shows node <code class="language-plaintext highlighter-rouge">arotprx01</code> running Proxmox Virtual Environment 9.2.2.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Captured value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU</td>
+      <td>18 × Intel Core Ultra 5 125H</td>
+    </tr>
+    <tr>
+      <td>CPU usage</td>
+      <td>0.45%</td>
+    </tr>
+    <tr>
+      <td>Memory</td>
+      <td>25.46 GiB of 30.83 GiB used</td>
+    </tr>
+    <tr>
+      <td>Root disk</td>
+      <td>17.84 GiB of 93.93 GiB used</td>
+    </tr>
+    <tr>
+      <td>Swap</td>
+      <td>16 KiB of 8 GiB used</td>
+    </tr>
+    <tr>
+      <td>Kernel</td>
+      <td>Linux 7.0.2-6-pve</td>
+    </tr>
+    <tr>
+      <td>Boot mode</td>
+      <td>EFI</td>
+    </tr>
+    <tr>
+      <td>Uptime</td>
+      <td>11 days, 22 hours and 5 minutes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Visible guests include a Twingate connector, three Linux guests and one Windows guest. Local, LVM and NAS-backed storage entries are configured on the node.</p>
+
+<h2 id="home-assistant">Home Assistant</h2>
+
+<p><img src="/labsite/assets/images/digital/homelab/software/home-assistant-dashboard.png" alt="Home Assistant dashboard with power, temperature, humidity, weather and switch controls" /></p>
+
+<p>Home Assistant provides the central automation and sensor interface. The captured dashboard includes:</p>
+
+<ul>
+  <li>Home server power consumption and photovoltaic power</li>
+  <li>Outdoor temperature</li>
+  <li>Temperature and humidity sensors</li>
+  <li>Local weather and precipitation information</li>
+  <li>Room and appliance measurements</li>
+  <li>Ventilation, lighting, heating and garage controls</li>
+  <li>Camera and thermostat integrations</li>
+  <li>Dedicated views for vehicles, energy, Fronius and individual HomeLab systems</li>
+</ul>
+
+<h2 id="portainer-stacks">Portainer stacks</h2>
+
+<p>The screenshots show the following unique stacks. “Inactive” reflects the orange status badge visible in Portainer; entries without that badge are listed as “No inactive badge shown” rather than assumed to be healthy.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stack</th>
+      <th>Screenshot status</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>automatic111stablediffusion</td>
+      <td>Inactive</td>
+      <td>Stable Diffusion image generation</td>
+    </tr>
+    <tr>
+      <td>crafty</td>
+      <td>Inactive</td>
+      <td>Crafty game-server management</td>
+    </tr>
+    <tr>
+      <td>dockhand</td>
+      <td>No inactive badge shown</td>
+      <td>Docker management</td>
+    </tr>
+    <tr>
+      <td>dozzle</td>
+      <td>No inactive badge shown</td>
+      <td>Container log viewer</td>
+    </tr>
+    <tr>
+      <td>duplicati</td>
+      <td>No inactive badge shown</td>
+      <td>Backup management</td>
+    </tr>
+    <tr>
+      <td>excalidraw</td>
+      <td>No inactive badge shown</td>
+      <td>Collaborative diagrams</td>
+    </tr>
+    <tr>
+      <td>faster-whisper</td>
+      <td>No inactive badge shown</td>
+      <td>Speech-to-text processing</td>
+    </tr>
+    <tr>
+      <td>filebrowser</td>
+      <td>No inactive badge shown</td>
+      <td>Browser-based file management</td>
+    </tr>
+    <tr>
+      <td>frigate</td>
+      <td>Inactive</td>
+      <td>Network video recording and detection</td>
+    </tr>
+    <tr>
+      <td>homeassistant</td>
+      <td>No inactive badge shown</td>
+      <td>Home automation</td>
+    </tr>
+    <tr>
+      <td>homepage</td>
+      <td>No inactive badge shown</td>
+      <td>HomeLab dashboard</td>
+    </tr>
+    <tr>
+      <td>immich</td>
+      <td>Inactive</td>
+      <td>Photo and video management</td>
+    </tr>
+    <tr>
+      <td>it-tools</td>
+      <td>No inactive badge shown</td>
+      <td>Browser-based technical utilities</td>
+    </tr>
+    <tr>
+      <td>lmstudioopenwebui</td>
+      <td>No inactive badge shown</td>
+      <td>Web interface for local LM Studio models</td>
+    </tr>
+    <tr>
+      <td>mosquitto</td>
+      <td>No inactive badge shown</td>
+      <td>MQTT broker</td>
+    </tr>
+    <tr>
+      <td>myspeed</td>
+      <td>No inactive badge shown</td>
+      <td>Network speed monitoring</td>
+    </tr>
+    <tr>
+      <td>n8n</td>
+      <td>No inactive badge shown</td>
+      <td>Workflow automation</td>
+    </tr>
+    <tr>
+      <td>nodecast-tv</td>
+      <td>Inactive</td>
+      <td>Media service</td>
+    </tr>
+    <tr>
+      <td>notemark</td>
+      <td>No inactive badge shown</td>
+      <td>Notes service</td>
+    </tr>
+    <tr>
+      <td>ollamaopenwebui</td>
+      <td>No inactive badge shown</td>
+      <td>Web interface for local Ollama models</td>
+    </tr>
+    <tr>
+      <td>onedrive</td>
+      <td>No inactive badge shown</td>
+      <td>Cloud file synchronisation</td>
+    </tr>
+    <tr>
+      <td>opennotebook</td>
+      <td>Inactive</td>
+      <td>Notebook and knowledge-management service</td>
+    </tr>
+    <tr>
+      <td>openproject</td>
+      <td>Inactive</td>
+      <td>Project management</td>
+    </tr>
+    <tr>
+      <td>pihole</td>
+      <td>No inactive badge shown</td>
+      <td>DNS-based network filtering</td>
+    </tr>
+    <tr>
+      <td>piper</td>
+      <td>No inactive badge shown</td>
+      <td>Text-to-speech processing</td>
+    </tr>
+    <tr>
+      <td>prunemate</td>
+      <td>Inactive</td>
+      <td>Docker image maintenance</td>
+    </tr>
+    <tr>
+      <td>pulse</td>
+      <td>Inactive</td>
+      <td>Infrastructure monitoring</td>
+    </tr>
+    <tr>
+      <td>roundcubemailclient</td>
+      <td>No inactive badge shown</td>
+      <td>Webmail client</td>
+    </tr>
+    <tr>
+      <td>searxng</td>
+      <td>No inactive badge shown</td>
+      <td>Metasearch engine</td>
+    </tr>
+    <tr>
+      <td>stellantisoauth</td>
+      <td>No inactive badge shown</td>
+      <td>Vehicle-service authentication</td>
+    </tr>
+    <tr>
+      <td>syncthing</td>
+      <td>Inactive</td>
+      <td>Peer-to-peer file synchronisation</td>
+    </tr>
+    <tr>
+      <td>twingate</td>
+      <td>No inactive badge shown</td>
+      <td>Remote network access</td>
+    </tr>
+    <tr>
+      <td>upsnap</td>
+      <td>No inactive badge shown</td>
+      <td>Wake-on-LAN management</td>
+    </tr>
+    <tr>
+      <td>uptimekuma</td>
+      <td>No inactive badge shown</td>
+      <td>Service availability monitoring</td>
+    </tr>
+    <tr>
+      <td>vaultwarden</td>
+      <td>Inactive</td>
+      <td>Password-management server</td>
+    </tr>
+    <tr>
+      <td>whatsupdocker</td>
+      <td>No inactive badge shown</td>
+      <td>Container update monitoring</td>
+    </tr>
+    <tr>
+      <td>whisper-webui</td>
+      <td>No inactive badge shown</td>
+      <td>Web-based speech transcription</td>
+    </tr>
+    <tr>
+      <td>zigbee2mqtt</td>
+      <td>No inactive badge shown</td>
+      <td>Zigbee-to-MQTT bridge</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><a href="/labsite/digital/homelab/">Back to HomeLab</a> · <a href="/labsite/digital/">Back to Digital</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/labsite/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DaSte-Labs</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">DaSte-Labs</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Projects, documentation and ideas about home, garden, technology and professional experience.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

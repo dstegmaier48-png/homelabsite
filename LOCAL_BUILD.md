@@ -2,6 +2,8 @@
 
 This guide explains how to build and preview DaSte-Labs locally on Windows.
 
+>jekyll serve --livereload
+
 ## Requirements
 
 The Jekyll extension for Visual Studio Code does not install the Jekyll runtime. The following components are required:
@@ -53,7 +55,7 @@ cd C:\Users\admin1\Documents\ChatGPT\labsite
 ## 5. Start the local preview
 
 ```powershell
-jekyll serve --livereload --baseurl ""
+jekyll serve --livereload
 ```
 
 Open the following address in a browser:

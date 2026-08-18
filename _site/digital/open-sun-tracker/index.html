@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Open Sun Tracker | DaSte-Labs</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Open Sun Tracker" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="An open-source, single-axis solar-tracking system developed as my bachelor’s thesis in 2014." />
+<meta name="twitter:description" property="og:description" content="An open-source, single-axis solar-tracking system developed as my bachelor’s thesis in 2014." />
+<link rel="canonical" href="http://localhost:4000/labsite/digital/open-sun-tracker/" />
+<meta property="og:url" content="http://localhost:4000/labsite/digital/open-sun-tracker/" />
+<meta property="og:site_name" content="DaSte-Labs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Open Sun Tracker" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"An open-source, single-axis solar-tracking system developed as my bachelor’s thesis in 2014.","headline":"Open Sun Tracker","url":"http://localhost:4000/labsite/digital/open-sun-tracker/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/labsite/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/labsite/feed.xml" title="DaSte-Labs" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/labsite/">DaSte-Labs</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/labsite/renovation/">Renovation</a><a class="page-link" href="/labsite/hidde-gardening/">“Hidde” Gardening</a><a class="page-link" href="/labsite/digital/">Digital</a><a class="page-link" href="/labsite/resume/">Résumé</a><a class="page-link" href="/labsite/impressum/">Impressum</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Open Sun Tracker</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="open-sun-tracker">Open Sun Tracker</h1>
+
+<p>Open Sun Tracker was my bachelor’s thesis project in 2014. The goal was to initiate an open-source DIY platform for controlling a single-axis solar or photovoltaic tracking system. The software and electronics were designed to support different linear actuators and tracking surfaces, while the mechanical frame and foundation were intentionally outside the scope of the work.</p>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/test-system.png" alt="Open Sun Tracker photovoltaic test system with a large tracked module surface" /></p>
+
+<h2 id="project-idea">Project idea</h2>
+
+<p>A photovoltaic surface produces its best output when sunlight reaches it at a favourable angle. Open Sun Tracker calculates the position of the sun algorithmically and translates the desired tracker angle into a target position for a linear actuator. The project focused on an affordable, reproducible control platform with published background information, software, material guidance and step-by-step documentation.</p>
+
+<p>The design supported three operating environments:</p>
+
+<ul>
+  <li><strong>Online:</strong> network and internet access, including time synchronisation</li>
+  <li><strong>Isolated:</strong> local network access without an internet connection</li>
+  <li><strong>Offline:</strong> autonomous operation without network connectivity</li>
+</ul>
+
+<h2 id="system-architecture">System architecture</h2>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/system-architecture.png" alt="Open Sun Tracker system architecture with Netduino, Control Shield, actuator, anemometer, network client and microSD storage" /></p>
+
+<p>The controller was based on a <strong>Netduino Plus 2</strong> running the .NET Micro Framework. A custom-built Control Shield connected the development board to the actuator, end-stop signals and optional wind sensor. A microSD card stored the web interface, XML configuration and log files.</p>
+
+<p>The main components were:</p>
+
+<ul>
+  <li>Netduino Plus 2 controller with Ethernet and microSD storage</li>
+  <li>Custom Control Shield for relay, motor and sensor interfacing</li>
+  <li>Linear actuator with supported end-stop or Hall-sensor feedback</li>
+  <li>Optional anemometer for wind protection</li>
+  <li>XML-based configuration for location, time, frame geometry, motor behaviour, logging and networking</li>
+  <li>Embedded web and REST interfaces</li>
+  <li>OSTWin desktop client for status, configuration, motor control and diagnostics</li>
+</ul>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/control-shield.png" alt="Custom Open Sun Tracker Control Shield with relay and terminal connections" /></p>
+
+<h2 id="software-and-operation">Software and operation</h2>
+
+<p>The firmware calculated the daily solar path from the configured position and time. It controlled motor initialisation, calibration and positioning and could move the tracker to a safe position when the configured wind threshold was exceeded.</p>
+
+<p>The OSTWin Windows client provided dedicated views for system state, logs, configuration, motor operation, tracker data and diagnostics. Network endpoints also exposed status, configuration, wind information, calibration and motor commands.</p>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/ostwin-client.png" alt="OSTWin desktop client showing tracker, motor, wind and system status" /></p>
+
+<p>The accompanying project documentation covered:</p>
+
+<ul>
+  <li>Assembly and testing of the Control Shield</li>
+  <li>Firmware and desktop-client installation</li>
+  <li>XML configuration and system commissioning</li>
+  <li>Frame and actuator calibration</li>
+  <li>Normal operation, monitoring and troubleshooting</li>
+</ul>
+
+<h2 id="test-installation">Test installation</h2>
+
+<p>The documented test system used automatic azimuth tracking and manual elevation adjustment. Its main characteristics were:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>2014 test-system value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tracking surface</td>
+      <td>Approximately 26 m²</td>
+    </tr>
+    <tr>
+      <td>Photovoltaic modules</td>
+      <td>20 monocrystalline modules at 180 W each</td>
+    </tr>
+    <tr>
+      <td>Nominal power</td>
+      <td>3.6 kWp</td>
+    </tr>
+    <tr>
+      <td>Actuator</td>
+      <td>Linak LA36 with Hall sensor</td>
+    </tr>
+    <tr>
+      <td>Rated dynamic actuator force</td>
+      <td>10,000 N</td>
+    </tr>
+    <tr>
+      <td>Open Sun Tracker component cost</td>
+      <td>Approximately €160</td>
+    </tr>
+    <tr>
+      <td>Tracking operation began</td>
+      <td>17 April 2014</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/tracker-rear-view.png" alt="Rear view of the tracked photovoltaic surface and linear-actuator mechanism" /></p>
+
+<p><img src="/labsite/assets/images/digital/open-sun-tracker/control-cabinet.png" alt="Open Sun Tracker control cabinet with custom electronics and 24-volt power supply" /></p>
+
+<h2 id="interested-in-the-project">Interested in the project?</h2>
+
+<p>If you are interested in the source code, technical documentation or further background, feel free to contact me at <a href="mailto:lab@danielstegmaier.de">lab@danielstegmaier.de</a>.</p>
+
+<hr />
+
+<p><a href="/labsite/digital/">Back to Digital</a> · <a href="/labsite/">Back to the home page</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/labsite/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DaSte-Labs</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">DaSte-Labs</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Projects, documentation and ideas about home, garden, technology and professional experience.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
