@@ -33,6 +33,10 @@ Germany
 
 This website serves as a professional and personal presentation. In particular, it contains information about my professional background, portfolio, personal interests, own projects and freelance services, as well as regularly published articles.
 
+## AI-generated content and human review
+
+All content on this website has been generated with the assistance of artificial intelligence. A human-in-the-loop process is used to review, verify and approve the content before publication. Final editorial responsibility remains with the website owner.
+
 ---
 
 [GDPR Privacy Policy]({{ '/impressum/privacy/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
