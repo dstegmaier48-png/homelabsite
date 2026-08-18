@@ -1,5 +1,5 @@
 title: DaSte-Labs
-description: Projects, documentation and ideas about home, garden, technology and professional experience.
+description: Projects, documentation and ideas about home, garden, technology, energy and professional experience.
 url: "https://dstegmaier48-png.github.io"
 baseurl: "/labsite"
 lang: en
@@ -10,6 +10,7 @@ header_pages:
   - renovation/index.md
   - hidde-gardening/index.md
   - digital/index.md
+  - energy/index.md
   - resume/index.md
   - impressum.md
 

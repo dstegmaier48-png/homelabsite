@@ -16,7 +16,7 @@ Garden projects, planting plans, observations and seasonal tasks.
 
 ## Articles
 
-- [Biomeiler]({{ '/hidde-gardening/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
+No articles have been published yet.
 
 <!-- Add new articles here, for example:
 - [The first raised bed](raised-bed/)

@@ -2,7 +2,7 @@
 layout: page
 title: Biomeiler
 description: A compost heat-recovery experiment and the idea of combining biological heat with anaerobic biogas production.
-permalink: /hidde-gardening/biomeiler/
+permalink: /energy/biomeiler/
 ---
 
 # Biomeiler
@@ -11,7 +11,7 @@ A *Biomeiler*—often described in English as a compost heater—is a large, moi
 
 Research on compost heat-recovery systems shows that biologically active piles can reach thermophilic temperatures around 50–65 °C. The useful output depends strongly on pile size, feedstock, moisture, oxygen supply, insulation and heat-exchanger design.
 
-![Biomeiler made from organic material inside a wire enclosure, with a weather cover]({{ '/assets/images/hidde-gardening/biomeiler/biomeiler-construction.jpg' | relative_url }})
+![Biomeiler made from organic material inside a wire enclosure, with a weather cover]({{ '/assets/images/energy/biomeiler/biomeiler-construction.jpg' | relative_url }})
 
 ## The basic idea
 
@@ -22,7 +22,7 @@ Research on compost heat-recovery systems shows that biologically active piles c
 5. The warmed water transfers energy to a buffer tank or a low-temperature heating application.
 6. After the active phase, the decomposed material can be matured and used as a soil amendment where suitable.
 
-![Straw-covered Biomeiler with visible water pipework]({{ '/assets/images/hidde-gardening/biomeiler/biomeiler-pipework.jpg' | relative_url }})
+![Straw-covered Biomeiler with visible water pipework]({{ '/assets/images/energy/biomeiler/biomeiler-pipework.jpg' | relative_url }})
 
 ## Potential uses for the heat
 
@@ -38,9 +38,9 @@ The available temperature and heating power vary over time. A Biomeiler is there
 
 The experiment used analogue thermometers to observe the biological heating process. The photographs document different measurements and operating conditions rather than a continuous performance record.
 
-![Analogue thermometer placed in wet compost material during an October 2015 temperature check]({{ '/assets/images/hidde-gardening/biomeiler/temperature-check-october-2015.jpg' | relative_url }})
+![Analogue thermometer placed in wet compost material during an October 2015 temperature check]({{ '/assets/images/energy/biomeiler/temperature-check-october-2015.jpg' | relative_url }})
 
-![Analogue thermometer with condensate during a December 2015 temperature check]({{ '/assets/images/hidde-gardening/biomeiler/temperature-check-december-2015.jpg' | relative_url }})
+![Analogue thermometer with condensate during a December 2015 temperature check]({{ '/assets/images/energy/biomeiler/temperature-check-december-2015.jpg' | relative_url }})
 
 ## Biogas: a separate anaerobic process
 
@@ -53,7 +53,7 @@ Anaerobic digestion produces:
 
 This combination follows the general Jean Pain concept: aerobic composting provides heat, while a separate oxygen-free vessel provides methane-rich gas. The two biological processes complement one another but must remain technically distinct.
 
-![Close-up showing moisture and gas bubbles in the experimental setup]({{ '/assets/images/hidde-gardening/biomeiler/digestion-close-up.jpg' | relative_url }})
+![Close-up showing moisture and gas bubbles in the experimental setup]({{ '/assets/images/energy/biomeiler/digestion-close-up.jpg' | relative_url }})
 
 ## Benefits
 
@@ -75,4 +75,4 @@ Biogas contains flammable methane and may contain toxic hydrogen sulphide. A gas
 
 ---
 
-[Back to “Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Energy]({{ '/energy/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})

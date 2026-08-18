@@ -13,6 +13,7 @@ This website documents my projects involving my home, digital-projects and garde
 - [Renovation]({{ '/renovation/' | relative_url }}) – planning, progress and renovation experiences
 - [“Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) – garden projects, plants and seasonal work
 - [Digital]({{ '/digital/' | relative_url }}) – software, digital tools and workflows
+- [Energy]({{ '/energy/' | relative_url }}) – energy systems, biological heat recovery and biogas experiments
 - [Résumé]({{ '/resume/' | relative_url }}) – professional experience, education, certifications and expertise
 - [Impressum]({{ '/impressum/' | relative_url }}) – provider identification and contact information
 
