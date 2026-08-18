@@ -14,7 +14,8 @@ Software, digital tools, workflows and small automations.
 
 ## Articles
 
-No articles have been published yet.
+- [LabSite]({{ '/digital/labsite/' | relative_url }}) – the Markdown, Git, Jekyll and GitHub Pages publishing workflow behind this website
+- [Open Sun Tracker]({{ '/digital/open-sun-tracker/' | relative_url }}) – an open-source solar-tracking system developed as my 2014 bachelor's thesis
 
 <!-- Add new articles here, for example:
 - [My digital workflow](workflow/)
