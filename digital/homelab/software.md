@@ -21,6 +21,7 @@ The environment is built around Proxmox Virtual Environment and several Linux an
 | Automation | Home Assistant | Home automation, sensors, switches and energy monitoring |
 | Monitoring | Uptime Kuma, WhatsUpDocker, MySpeed and UpSnap | Availability, update, network-speed and wake-up management |
 | AI | LM Studio/OpenWebUI, Ollama/OpenWebUI, Stable Diffusion and Whisper | Local AI inference, image generation and speech processing |
+| Agentic AI | ZeroClaw and Hermes Agent | Autonomous AI agents for task execution, orchestration and tool-assisted workflows |
 | Storage and backup | Duplicati, OneDrive and Syncthing | Backup and file synchronisation |
 
 ## Homepage dashboard
@@ -113,18 +114,6 @@ The screenshots show the following unique stacks. “Inactive” reflects the or
 | whatsupdocker | No inactive badge shown | Container update monitoring |
 | whisper-webui | No inactive badge shown | Web-based speech transcription |
 | zigbee2mqtt | No inactive badge shown | Zigbee-to-MQTT bridge |
-
-### Stack screenshots
-
-![Portainer stacks: Automatic1111 through Home Assistant]({{ '/assets/images/digital/homelab/software/portainer-stacks-01.png' | relative_url }})
-
-![Portainer stacks: Homepage through Ollama OpenWebUI]({{ '/assets/images/digital/homelab/software/portainer-stacks-02.png' | relative_url }})
-
-![Second captured view of Homepage through Ollama OpenWebUI]({{ '/assets/images/digital/homelab/software/portainer-stacks-03.png' | relative_url }})
-
-![Portainer stacks: OneDrive through Stellantis OAuth]({{ '/assets/images/digital/homelab/software/portainer-stacks-04.png' | relative_url }})
-
-![Portainer stacks: Syncthing through Zigbee2MQTT]({{ '/assets/images/digital/homelab/software/portainer-stacks-05.png' | relative_url }})
 
 ---
 

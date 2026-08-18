@@ -12,6 +12,7 @@ Documentation about servers, networking, self-hosting, backups and automation.
 
 - [Actual Hardware]({{ '/digital/homelab/actual-hardware/' | relative_url }}) – the current HomeLab hardware overview
 - [Software]({{ '/digital/homelab/software/' | relative_url }}) – virtualisation, dashboards, home automation and container services
+- [LabSite]({{ '/digital/homelab/labsite/' | relative_url }}) – the Markdown, Git, Jekyll and GitHub Pages publishing workflow behind this website
 
 <!-- Add new articles here, for example:
 - [My first server](my-first-server/)
