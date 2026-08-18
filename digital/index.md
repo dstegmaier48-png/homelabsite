@@ -8,6 +8,10 @@ permalink: /digital/
 
 Software, digital tools, workflows and small automations.
 
+## Sections
+
+- [HomeLab]({{ '/digital/homelab/' | relative_url }}) – servers, networking, services, hardware and automation
+
 ## Articles
 
 No articles have been published yet.

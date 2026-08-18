@@ -2,7 +2,7 @@
 layout: page
 title: Software
 description: Current HomeLab software, virtualisation platform, dashboards, home automation and container services.
-permalink: /homelab/software/
+permalink: /digital/homelab/software/
 ---
 
 # Software
@@ -25,7 +25,7 @@ The environment is built around Proxmox Virtual Environment and several Linux an
 
 ## Homepage dashboard
 
-![Homepage dashboard with main containers, AI and secondary containers, local network services and a calendar]({{ '/assets/images/homelab/software/homepage-dashboard.png' | relative_url }})
+![Homepage dashboard with main containers, AI and secondary containers, local network services and a calendar]({{ '/assets/images/digital/homelab/software/homepage-dashboard.png' | relative_url }})
 
 The Homepage dashboard groups the environment into three main areas:
 
@@ -37,7 +37,7 @@ The screenshot also shows status and monitoring widgets, including Home Assistan
 
 ## Proxmox Virtual Environment
 
-![Proxmox Virtual Environment node overview]({{ '/assets/images/homelab/software/proxmox-overview.png' | relative_url }})
+![Proxmox Virtual Environment node overview]({{ '/assets/images/digital/homelab/software/proxmox-overview.png' | relative_url }})
 
 The screenshot shows node `arotprx01` running Proxmox Virtual Environment 9.2.2.
 
@@ -56,7 +56,7 @@ Visible guests include a Twingate connector, three Linux guests and one Windows 
 
 ## Home Assistant
 
-![Home Assistant dashboard with power, temperature, humidity, weather and switch controls]({{ '/assets/images/homelab/software/home-assistant-dashboard.png' | relative_url }})
+![Home Assistant dashboard with power, temperature, humidity, weather and switch controls]({{ '/assets/images/digital/homelab/software/home-assistant-dashboard.png' | relative_url }})
 
 Home Assistant provides the central automation and sensor interface. The captured dashboard includes:
 
@@ -116,16 +116,16 @@ The screenshots show the following unique stacks. “Inactive” reflects the or
 
 ### Stack screenshots
 
-![Portainer stacks: Automatic1111 through Home Assistant]({{ '/assets/images/homelab/software/portainer-stacks-01.png' | relative_url }})
+![Portainer stacks: Automatic1111 through Home Assistant]({{ '/assets/images/digital/homelab/software/portainer-stacks-01.png' | relative_url }})
 
-![Portainer stacks: Homepage through Ollama OpenWebUI]({{ '/assets/images/homelab/software/portainer-stacks-02.png' | relative_url }})
+![Portainer stacks: Homepage through Ollama OpenWebUI]({{ '/assets/images/digital/homelab/software/portainer-stacks-02.png' | relative_url }})
 
-![Second captured view of Homepage through Ollama OpenWebUI]({{ '/assets/images/homelab/software/portainer-stacks-03.png' | relative_url }})
+![Second captured view of Homepage through Ollama OpenWebUI]({{ '/assets/images/digital/homelab/software/portainer-stacks-03.png' | relative_url }})
 
-![Portainer stacks: OneDrive through Stellantis OAuth]({{ '/assets/images/homelab/software/portainer-stacks-04.png' | relative_url }})
+![Portainer stacks: OneDrive through Stellantis OAuth]({{ '/assets/images/digital/homelab/software/portainer-stacks-04.png' | relative_url }})
 
-![Portainer stacks: Syncthing through Zigbee2MQTT]({{ '/assets/images/homelab/software/portainer-stacks-05.png' | relative_url }})
+![Portainer stacks: Syncthing through Zigbee2MQTT]({{ '/assets/images/digital/homelab/software/portainer-stacks-05.png' | relative_url }})
 
 ---
 
-[Back to HomeLab]({{ '/homelab/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to HomeLab]({{ '/digital/homelab/' | relative_url }}) · [Back to Digital]({{ '/digital/' | relative_url }})

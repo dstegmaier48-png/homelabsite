@@ -6,7 +6,6 @@ lang: en
 theme: minima
 
 header_pages:
-  - homelab/index.md
   - renovation/index.md
   - hidde-gardening/index.md
   - digital/index.md

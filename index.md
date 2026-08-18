@@ -9,7 +9,6 @@ This website documents my projects involving my home, digital-projects and garde
 
 ## Categories
 
-- [HomeLab]({{ '/homelab/' | relative_url }}) – servers, networking, services and automation
 - [Renovation]({{ '/renovation/' | relative_url }}) – planning, progress and renovation experiences
 - [“Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) – garden projects, plants and seasonal work
 - [Digital]({{ '/digital/' | relative_url }}) – software, digital tools and workflows

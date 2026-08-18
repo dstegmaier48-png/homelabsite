@@ -2,14 +2,14 @@
 layout: page
 title: Actual Hardware
 description: Current HomeLab hardware for virtualisation, AI workloads, storage and backup.
-permalink: /homelab/actual-hardware/
+permalink: /digital/homelab/actual-hardware/
 ---
 
 # Actual Hardware
 
 The following diagram documents the current HomeLab hardware setup. The text shown in the image has also been transcribed below to make the information searchable and accessible.
 
-![HomeLab hardware overview showing the hypervisor, AI host, NAS and external backup]({{ '/assets/images/homelab/lab-hardware-v1.png' | relative_url }})
+![HomeLab hardware overview showing the hypervisor, AI host, NAS and external backup]({{ '/assets/images/digital/homelab/lab-hardware-v1.png' | relative_url }})
 
 *Diagram: “4Rot3x – HW HomeLab”, version 1.1, August 2026, D. Stegmaier.*
 
@@ -78,4 +78,4 @@ The following diagram documents the current HomeLab hardware setup. The text sho
 
 ---
 
-[Back to HomeLab]({{ '/homelab/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to HomeLab]({{ '/digital/homelab/' | relative_url }}) · [Back to Digital]({{ '/digital/' | relative_url }})

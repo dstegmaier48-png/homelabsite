@@ -1,6 +1,6 @@
-# HomeLab Site
+# DaSte-Labs
 
-Markdown-based GitHub Pages website with the HomeLab, Renovation, “Hidde” Gardening, Digital and Résumé categories.
+Markdown-based GitHub Pages website with the Renovation, “Hidde” Gardening, Digital and Résumé root categories. HomeLab is a section below Digital.
 
 ## Creating an article
 
@@ -10,14 +10,14 @@ Markdown-based GitHub Pages website with the HomeLab, Renovation, “Hidde” Ga
 4. Link the new article under **Articles** in the category's `index.md`.
 5. Store images under `assets/images/category/` and include them using `relative_url`.
 
-Example article at `homelab/proxmox.md`:
+Example article at `digital/homelab/proxmox.md`:
 
 ```yaml
 ---
 layout: page
 title: "My Proxmox server"
 description: "Installing and configuring my Proxmox server"
-permalink: /homelab/proxmox/
+permalink: /digital/homelab/proxmox/
 ---
 ```
 
