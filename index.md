@@ -17,8 +17,8 @@ This website documents my projects involving my home, digital-projects and garde
 
 ## ChangeLog
 
+- **18 August 2026** — [`a23ed03`](https://github.com/dstegmaier48-png/labsite/commit/a23ed03) Added an AI-content transparency notice and human-in-the-loop review statement to the Impressum.
+- **18 August 2026** — [`8a4cbe2`](https://github.com/dstegmaier48-png/labsite/commit/8a4cbe2) Added local Jekyll build instructions and excluded the help file from the published site.
+- **18 August 2026** — [`2219f00`](https://github.com/dstegmaier48-png/labsite/commit/2219f00) Consolidated the Digital sections and articles into a single overview.
+- **18 August 2026** — [`010f24d`](https://github.com/dstegmaier48-png/labsite/commit/010f24d) Added the Open Sun Tracker source materials to the repository.
 - **18 August 2026** — [`00a9acc`](https://github.com/dstegmaier48-png/labsite/commit/00a9acc) Added the Open Sun Tracker bachelor's-thesis overview and moved LabSite directly beneath Digital.
-- **18 August 2026** — [`b601619`](https://github.com/dstegmaier48-png/labsite/commit/b601619) Added the LabSite workflow overview and updated the HomeLab software documentation with agentic AI tools.
-- **18 August 2026** — [`d24c26d`](https://github.com/dstegmaier48-png/labsite/commit/d24c26d) Moved HomeLab, its subpages and image assets beneath the Digital section.
-- **18 August 2026** — [`fb2e183`](https://github.com/dstegmaier48-png/labsite/commit/fb2e183) Returned the Biomeiler project to “Hidde” Gardening, removed Energy again and added the Renovation property images.
-- **18 August 2026** — [`cc7f60a`](https://github.com/dstegmaier48-png/labsite/commit/cc7f60a) Moved the Biomeiler project and its images from “Hidde” Gardening to Energy and added the input source files.
