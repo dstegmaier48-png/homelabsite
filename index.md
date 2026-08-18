@@ -17,8 +17,8 @@ This website documents my projects involving my home, digital-projects and garde
 
 ## ChangeLog
 
+- **18 August 2026** — [`d24c26d`](https://github.com/dstegmaier48-png/labsite/commit/d24c26d) Moved HomeLab, its subpages and image assets beneath the Digital section.
 - **18 August 2026** — [`fb2e183`](https://github.com/dstegmaier48-png/labsite/commit/fb2e183) Returned the Biomeiler project to “Hidde” Gardening, removed Energy again and added the Renovation property images.
 - **18 August 2026** — [`cc7f60a`](https://github.com/dstegmaier48-png/labsite/commit/cc7f60a) Moved the Biomeiler project and its images from “Hidde” Gardening to Energy and added the input source files.
 - **17 August 2026** — [`f4d3614`](https://github.com/dstegmaier48-png/labsite/commit/f4d3614) Removed the Energy category, its page and all root-level references.
 - **17 August 2026** — [`1388ea5`](https://github.com/dstegmaier48-png/labsite/commit/1388ea5) Renamed the site header to “DaSte-Labs” and increased the background image visibility to 20 percent.
-- **17 August 2026** — [`0edac26`](https://github.com/dstegmaier48-png/labsite/commit/0edac26) Deleted the remaining DIY page and category artifacts.
