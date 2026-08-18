@@ -73,10 +73,6 @@ The documented test system used automatic azimuth tracking and manual elevation 
 
 ![Open Sun Tracker control cabinet with custom electronics and 24-volt power supply]({{ '/assets/images/digital/open-sun-tracker/control-cabinet.png' | relative_url }})
 
-## Historical project status
-
-This page describes the project as it existed in 2014. The original implementation used technologies, operating systems and hosting services from that period, and some external project URLs or software dependencies may no longer be available or supported. The original presentation and manuals were used to prepare this overview but are intentionally not offered as downloads here.
-
 ## Interested in the project?
 
 If you are interested in the source code, technical documentation or further background, feel free to contact me at [lab@danielstegmaier.de](mailto:lab@danielstegmaier.de).

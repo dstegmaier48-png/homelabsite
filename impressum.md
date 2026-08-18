@@ -7,7 +7,7 @@ permalink: /impressum/
 
 # Impressum
 
-Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).
+Angaben gemäß § 5 DSGVO.
 
 ## Anbieter
 
