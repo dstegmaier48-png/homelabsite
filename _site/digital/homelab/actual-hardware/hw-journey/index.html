@@ -51,21 +51,11 @@
 
 <p>The early HomeLab years were shaped by Raspberry Pi systems. A notable milestone was the use of <strong>two Raspberry Pi 5 systems</strong>, primarily for <strong>Home Assistant</strong>. They provided a compact and energy-efficient platform for home automation and self-hosting experiments.</p>
 
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/raspberry-pi-setup.png" alt="Early Raspberry Pi setup with external storage and power supply" /></p>
-
 <h2 id="moving-to-proxmox-and-lxc">Moving to Proxmox and LXC</h2>
 
 <p>As the number of services increased, the focus shifted to <strong>Proxmox</strong>. Over time, I installed it on dozens of different mini PCs and used <strong>Linux Containers (LXC)</strong> to separate services while keeping resource consumption low.</p>
 
 <p>This phase was strongly experimental: different compact systems were tested for performance, thermals, expandability, and suitability for continuous operation.</p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/eq-mini-pc.jpg" alt="Compact EQ mini PC and its packaging" /></p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-mini-pc.jpg" alt="A compact Minisforum mini PC used during the virtualisation journey" /></p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-um870-slim.jpg" alt="Minisforum UM870 Slim packaging" /></p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/compact-pc.png" alt="Compact PC from an earlier HomeLab generation" /></p>
 
 <h2 id="increasing-focus-on-local-llms">Increasing focus on local LLMs</h2>
 
@@ -73,13 +63,9 @@
 
 <p>Mini PCs remained attractive because of their low footprint and efficiency, but increasingly demanding models exposed their performance and memory-bandwidth limits.</p>
 
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/ryzen-mini-pc.jpg" alt="Ryzen-based mini PC used during local-AI experiments" /></p>
-
 <h2 id="ryzen-ai-hx-370">Ryzen AI HX 370</h2>
 
 <p>To explore newer integrated AI hardware, the journey continued with a system based on the <strong>AMD Ryzen AI HX 370</strong>. It represented an important intermediate step between general-purpose mini PCs and a machine designed around a dedicated graphics card.</p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-ms-a2.jpg" alt="Minisforum MS-A2 mini workstation" /></p>
 
 <h2 id="2026--a-dedicated-ai-host">2026 — A dedicated AI host</h2>
 
@@ -87,11 +73,7 @@
 
 <p>The first graphics card used for this purpose was an <strong>NVIDIA GeForce RTX 3050 with 6 GB of VRAM</strong>. It was later replaced by an <strong>AMD Radeon RX 9060 XT with 16 GB of VRAM</strong>, providing considerably more memory for local models.</p>
 
-<p>The host is used mainly with <strong>Hermes Agent</strong>. This followed earlier experiments with <strong>OpenClaw</strong>, which proved too inflexible for the way I wanted to combine local models, tools, and isolated workloads.</p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/desktop-tower.jpg" alt="Desktop tower used as a dedicated AI host" /></p>
-
-<p><img src="/labsite/assets/images/digital/homelab/hw-journey/ai-desktop-internal.png" alt="Inside an earlier GPU-equipped AI desktop" /></p>
+<p>The host is used mainly with <strong>Hermes Agent</strong>. This followed earlier experiments with <strong>ZeroClaw</strong>, which proved too inflexible for the way I wanted to combine local models, tools, and isolated workloads.</p>
 
 <h2 id="current-direction">Current direction</h2>
 
@@ -106,6 +88,47 @@
 </ol>
 
 <p>The current setup is not an endpoint. It is a platform for continuing experiments with models, agents, orchestration, and efficient local inference.</p>
+
+<h2 id="hardware-gallery">Hardware gallery</h2>
+
+<div class="hw-journey-gallery">
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/raspberry-pi-setup.png" alt="Early Raspberry Pi setup with external storage and power supply" />
+    <figcaption>Early Raspberry Pi setup</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/eq-mini-pc.jpg" alt="Compact EQ mini PC and its packaging" />
+    <figcaption>EQ mini PC</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-mini-pc.jpg" alt="A compact Minisforum mini PC" />
+    <figcaption>Minisforum mini PC</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-um870-slim.jpg" alt="Minisforum UM870 Slim packaging" />
+    <figcaption>Minisforum UM870 Slim</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/compact-pc.png" alt="Compact PC from an earlier HomeLab generation" />
+    <figcaption>Earlier compact PC</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/ryzen-mini-pc.jpg" alt="Ryzen-based mini PC used for local AI experiments" />
+    <figcaption>Ryzen mini PC</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/minisforum-ms-a2.jpg" alt="Minisforum MS-A2 mini workstation" />
+    <figcaption>Minisforum MS-A2</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/desktop-tower.jpg" alt="Desktop tower used as a dedicated AI host" />
+    <figcaption>Dedicated AI host</figcaption>
+  </figure>
+  <figure>
+    <img src="/labsite/assets/images/digital/homelab/hw-journey/ai-desktop-internal.png" alt="Inside an earlier GPU-equipped AI desktop" />
+    <figcaption>Earlier GPU system</figcaption>
+  </figure>
+</div>
 
 <p><a href="/labsite/digital/homelab/actual-hardware/">Back to Actual Hardware</a> · <a href="/labsite/digital/homelab/">Back to HomeLab</a></p>
 
