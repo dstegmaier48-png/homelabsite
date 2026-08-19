@@ -45,13 +45,9 @@ The screenshot shows node `arotprx01` running Proxmox Virtual Environment 9.2.2.
 | Property | Captured value |
 |---|---|
 | CPU | 18 × Intel Core Ultra 5 125H |
-| CPU usage | 0.45% |
 | Memory | 25.46 GiB of 30.83 GiB used |
 | Root disk | 17.84 GiB of 93.93 GiB used |
-| Swap | 16 KiB of 8 GiB used |
 | Kernel | Linux 7.0.2-6-pve |
-| Boot mode | EFI |
-| Uptime | 11 days, 22 hours and 5 minutes |
 
 Visible guests include a Twingate connector, three Linux guests and one Windows guest. Local, LVM and NAS-backed storage entries are configured on the node.
 

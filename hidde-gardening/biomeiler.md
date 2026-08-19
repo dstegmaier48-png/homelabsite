@@ -2,7 +2,7 @@
 layout: page
 title: Biomeiler
 description: A compost heat-recovery experiment and the idea of combining biological heat with anaerobic biogas production.
-permalink: /hidde-gardening/biomeiler/
+permalink: /physical/hidde/biomeiler/
 ---
 
 # Biomeiler
@@ -75,4 +75,4 @@ Biogas contains flammable methane and may contain toxic hydrogen sulphide. A gas
 
 ---
 
-[Back to “Hidde” Gardening]({{ '/hidde-gardening/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Hidde]({{ '/physical/hidde/' | relative_url }}) · [Back to Physical]({{ '/physical/' | relative_url }})

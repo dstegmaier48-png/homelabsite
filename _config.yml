@@ -9,8 +9,7 @@ plugins:
   - jekyll-sitemap
 
 header_pages:
-  - renovation/index.md
-  - hidde-gardening/index.md
+  - physical/index.md
   - digital/index.md
   - resume/index.md
   - impressum.md

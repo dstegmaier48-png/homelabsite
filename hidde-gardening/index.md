@@ -1,10 +1,10 @@
 ---
 layout: page
-title: “Hidde” Gardening
-permalink: /hidde-gardening/
+title: Hidde
+permalink: /physical/hidde/
 ---
 
-# “Hidde” Gardening
+# Hidde
 
 Garden projects, planting plans, observations and seasonal tasks.
 
@@ -16,11 +16,11 @@ Garden projects, planting plans, observations and seasonal tasks.
 
 ## Articles
 
-- [Biomeiler]({{ '/hidde-gardening/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
-- [Milk-Tank Hot Tub]({{ '/hidde-gardening/milk-tank-hot-tub/' | relative_url }}) – converting a stainless-steel milk tank into a wood-heated outdoor hot tub
+- [Biomeiler]({{ '/physical/hidde/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
+- [Milk-Tank Hot Tub]({{ '/physical/hidde/milk-tank-hot-tub/' | relative_url }}) – converting a stainless-steel milk tank into a wood-heated outdoor hot tub
 
 <!-- Add new articles here, for example:
 - [The first raised bed](raised-bed/)
 -->
 
-[Back to the overview]({{ '/' | relative_url }})
+[Back to Physical]({{ '/physical/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})

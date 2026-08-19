@@ -2,7 +2,7 @@
 layout: page
 title: Milk-Tank Hot Tub
 description: A repurposed stainless-steel milk tank heated by a wood-fired heat exchanger made from an old hot-water boiler.
-permalink: /hidde-gardening/milk-tank-hot-tub/
+permalink: /physical/hidde/milk-tank-hot-tub/
 ---
 
 # Milk-Tank Hot Tub
@@ -36,4 +36,4 @@ Even in winter, the system heats the water to approximately **38 °C within thre
 
 This page documents a personal reuse project and is not a construction guide. Open fire, hot water, hot metal surfaces, pumps, and modified vessels can cause serious injury. Any similar system must remain unpressurised, must never turn the former boiler into a sealed pressure vessel, and should be operated outdoors on a stable, non-combustible base with continuous supervision. Water temperature, circulation, electrical protection, ventilation, and safe distances from combustible materials must be checked carefully before and during use.
 
-[Back to Hidde Gardening]({{ '/hidde-gardening/' | relative_url }}) · [Back to home]({{ '/' | relative_url }})
+[Back to Hidde]({{ '/physical/hidde/' | relative_url }}) · [Back to Physical]({{ '/physical/' | relative_url }})
