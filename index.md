@@ -15,8 +15,8 @@ On this website, I showcase some of my personal projects related to my home, dig
 
 # ChangeLog
 
+- **19 August 2026** — [`e26a16f`](https://github.com/dstegmaier48-png/labsite/commit/e26a16f) Added the HomeLab HW Journey with six years of hardware and local-AI milestones.
+- **19 August 2026** — [`196e069`](https://github.com/dstegmaier48-png/labsite/commit/196e069) Added the Jekyll sitemap plugin and generated sitemap support.
 - **19 August 2026** — [`216d6a7`](https://github.com/dstegmaier48-png/labsite/commit/216d6a7) Updated the welcome message and added the milk tank's capacity, seating, insulation, and measured heat retention.
 - **19 August 2026** — [`0787118`](https://github.com/dstegmaier48-png/labsite/commit/0787118) Added the Milk-Tank Hot Tub article with project photos, winter performance details, and safety notes.
 - **18 August 2026** — [`45b592f`](https://github.com/dstegmaier48-png/labsite/commit/45b592f) Simplified the home-page introduction and section headings.
-- **18 August 2026** — [`0902f3c`](https://github.com/dstegmaier48-png/labsite/commit/0902f3c) Translated the Impressum into German and added the correct DDG and GDPR privacy references.
-- **18 August 2026** — [`a23ed03`](https://github.com/dstegmaier48-png/labsite/commit/a23ed03) Added an AI-content transparency notice and human-in-the-loop review statement to the Impressum.
