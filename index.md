@@ -3,7 +3,7 @@ layout: home
 title: Welcome 2 my Lab-Site
 ---
 
-This website documents my projects involving my home, digital-projects and gardening. Choose a category to learn more.
+On this website, I showcase some of my personal projects related to my home, digital projects, and gardening.
 
 # Categories
 

@@ -7,7 +7,7 @@ permalink: /hidde-gardening/milk-tank-hot-tub/
 
 # Milk-Tank Hot Tub
 
-This project turns a retired stainless-steel milk tank into an outdoor hot tub. The original lid and sturdy tank body remain in use, giving an agricultural vessel a practical second life.
+This project turns a retired, insulated stainless-steel milk tank into an outdoor hot tub. With a capacity of approximately **1,400 litres**, it provides enough space for **three to four people**. The original lid and sturdy tank body remain in use, giving an agricultural vessel a practical second life.
 
 ![Converted milk tank beside the wood-fired heater]({{ '/assets/images/hidde-gardening/milk-tank-hot-tub/hot-tub-and-fire-pot.jpg' | relative_url }})
 
@@ -19,13 +19,15 @@ The separate fire pot was made from an old hot-water boiler. The boiler was cut 
 
 ## Winter performance
 
-Even in winter, the system heats the water to approximately **38 °C within three to four hours**. The required time naturally depends on the starting temperature, weather, water volume, fuel, and fire intensity.
+Even in winter, the system heats the water to approximately **38 °C within three to four hours**. The tank's built-in insulation then helps retain this heat: after two days at an outdoor temperature of around **0 °C**, the water was still approximately **20 °C**. The heating and cooling times naturally depend on the starting temperature, weather, water volume, fuel, fire intensity, and how often the lid is opened.
 
 ![Temperature check beside the milk tank and fire pot]({{ '/assets/images/hidde-gardening/milk-tank-hot-tub/winter-temperature-check.jpg' | relative_url }})
 
 ## Why this conversion works well
 
 - The stainless-steel tank is durable, easy to clean, and already shaped for holding liquid.
+- Its original insulation and lid substantially reduce heat loss after use.
+- Its capacity of approximately 1,400 litres accommodates three to four people.
 - Reusing the milk tank and boiler keeps substantial metal components in service.
 - The external heater keeps the open fire separate from the bathing area.
 - The original tank lid helps retain heat while the water is warming.
