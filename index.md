@@ -15,8 +15,8 @@ This website documents my projects involving my home, digital-projects and garde
 
 # ChangeLog
 
+- **19 August 2026** — [`0787118`](https://github.com/dstegmaier48-png/labsite/commit/0787118) Added the Milk-Tank Hot Tub article with project photos, winter performance details, and safety notes.
+- **18 August 2026** — [`45b592f`](https://github.com/dstegmaier48-png/labsite/commit/45b592f) Simplified the home-page introduction and section headings.
 - **18 August 2026** — [`0902f3c`](https://github.com/dstegmaier48-png/labsite/commit/0902f3c) Translated the Impressum into German and added the correct DDG and GDPR privacy references.
 - **18 August 2026** — [`a23ed03`](https://github.com/dstegmaier48-png/labsite/commit/a23ed03) Added an AI-content transparency notice and human-in-the-loop review statement to the Impressum.
 - **18 August 2026** — [`8a4cbe2`](https://github.com/dstegmaier48-png/labsite/commit/8a4cbe2) Added local Jekyll build instructions and excluded the help file from the published site.
-- **18 August 2026** — [`2219f00`](https://github.com/dstegmaier48-png/labsite/commit/2219f00) Consolidated the Digital sections and articles into a single overview.
-- **18 August 2026** — [`010f24d`](https://github.com/dstegmaier48-png/labsite/commit/010f24d) Added the Open Sun Tracker source materials to the repository.
