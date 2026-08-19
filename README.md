@@ -1,6 +1,6 @@
 # DaSte-Labs
 
-Markdown-based GitHub Pages website with the Physical, Digital, Résumé and Impressum root categories. Renovation and Hidde are sections below Physical, while HomeLab is a section below Digital.
+Markdown-based GitHub Pages website with the Physicals, Digitals, Résumé and Impressum root categories. Renovation and Hidde are sections below Physicals, while HomeLab is a section below Digitals.
 
 ## Creating an article
 

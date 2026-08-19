@@ -7,8 +7,8 @@ On this website, I showcase some of my personal projects related to my home, dig
 
 # Categories
 
-- [Physical]({{ '/physical/' | relative_url }}) – renovation, garden projects, and practical experiments
-- [Digital]({{ '/digital/' | relative_url }}) – software, digital tools and workflows
+- [Physicals]({{ '/physicals/' | relative_url }}) – renovation, garden projects, and practical experiments
+- [Digitals]({{ '/digitals/' | relative_url }}) – software, digital tools and workflows
 - [Résumé]({{ '/resume/' | relative_url }}) – professional experience, education, certifications and expertise
 - [Impressum]({{ '/impressum/' | relative_url }}) – provider identification and contact information
 

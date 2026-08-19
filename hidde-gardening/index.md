@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hidde
-permalink: /physical/hidde/
+permalink: /physicals/hidde/
 ---
 
 # Hidde
@@ -16,11 +16,10 @@ Garden projects, planting plans, observations and seasonal tasks.
 
 ## Articles
 
-- [Biomeiler]({{ '/physical/hidde/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
-- [Milk-Tank Hot Tub]({{ '/physical/hidde/milk-tank-hot-tub/' | relative_url }}) – converting a stainless-steel milk tank into a wood-heated outdoor hot tub
+- [Biomeiler]({{ '/physicals/hidde/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
 
 <!-- Add new articles here, for example:
 - [The first raised bed](raised-bed/)
 -->
 
-[Back to Physical]({{ '/physical/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Physicals]({{ '/physicals/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})

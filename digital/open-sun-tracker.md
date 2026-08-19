@@ -2,7 +2,7 @@
 layout: page
 title: Open Sun Tracker
 description: An open-source, single-axis solar-tracking system developed as my bachelor's thesis in 2014.
-permalink: /digital/open-sun-tracker/
+permalink: /digitals/open-sun-tracker/
 ---
 
 # Open Sun Tracker
@@ -79,4 +79,4 @@ If you are interested in the source code, technical documentation or further bac
 
 ---
 
-[Back to Digital]({{ '/digital/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Digitals]({{ '/digitals/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Renovation
-permalink: /physical/renovation/
+permalink: /physicals/renovation/
 ---
 
 # Renovation
@@ -32,4 +32,4 @@ No articles have been published yet.
 - [Renovating the home office](home-office/)
 -->
 
-[Back to Physical]({{ '/physical/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Physicals]({{ '/physicals/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})

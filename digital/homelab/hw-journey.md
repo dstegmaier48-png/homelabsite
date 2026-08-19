@@ -2,7 +2,7 @@
 layout: page
 title: HW Journey
 description: HomeLab hardware milestones from Raspberry Pi systems and Proxmox mini PCs to a dedicated local-AI host.
-permalink: /digital/homelab/actual-hardware/hw-journey/
+permalink: /digitals/homelab/actual-hardware/hw-journey/
 ---
 
 # HW Journey
@@ -90,4 +90,4 @@ The current setup is not an endpoint. It is a platform for continuing experiment
   </figure>
 </div>
 
-[Back to Actual Hardware]({{ '/digital/homelab/actual-hardware/' | relative_url }}) · [Back to HomeLab]({{ '/digital/homelab/' | relative_url }})
+[Back to Actual Hardware]({{ '/digitals/homelab/actual-hardware/' | relative_url }}) · [Back to HomeLab]({{ '/digitals/homelab/' | relative_url }})

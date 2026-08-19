@@ -2,14 +2,14 @@
 layout: page
 title: Actual Hardware
 description: Current HomeLab hardware for virtualisation, AI workloads, storage and backup.
-permalink: /digital/homelab/actual-hardware/
+permalink: /digitals/homelab/actual-hardware/
 ---
 
 # Actual Hardware
 
 The following diagram documents the current HomeLab hardware setup. The text shown in the image has also been transcribed below to make the information searchable and accessible.
 
-For the development that led to this setup, see [HW Journey]({{ '/digital/homelab/actual-hardware/hw-journey/' | relative_url }}).
+For the development that led to this setup, see [HW Journey]({{ '/digitals/homelab/actual-hardware/hw-journey/' | relative_url }}).
 
 ![HomeLab hardware overview showing the hypervisor, AI host, NAS and external backup]({{ '/assets/images/digital/homelab/lab-hardware-v1.png' | relative_url }})
 
@@ -80,4 +80,4 @@ For the development that led to this setup, see [HW Journey]({{ '/digital/homela
 
 ---
 
-[Back to HomeLab]({{ '/digital/homelab/' | relative_url }}) · [Back to Digital]({{ '/digital/' | relative_url }})
+[Back to HomeLab]({{ '/digitals/homelab/' | relative_url }}) · [Back to Digitals]({{ '/digitals/' | relative_url }})

@@ -2,7 +2,7 @@
 layout: page
 title: LabSite
 description: Context and publishing workflow for the personal LabSite built with Markdown, Git, Jekyll and GitHub Pages.
-permalink: /digital/labsite/
+permalink: /digitals/labsite/
 ---
 
 # LabSite
@@ -47,4 +47,4 @@ Markdown is the editorial source. GitHub is the traceable source of truth. GitHu
 
 ---
 
-[Back to Digital]({{ '/digital/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
+[Back to Digitals]({{ '/digitals/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
