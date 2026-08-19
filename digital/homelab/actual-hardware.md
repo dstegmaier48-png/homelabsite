@@ -9,6 +9,8 @@ permalink: /digital/homelab/actual-hardware/
 
 The following diagram documents the current HomeLab hardware setup. The text shown in the image has also been transcribed below to make the information searchable and accessible.
 
+For the development that led to this setup, see [HW Journey]({{ '/digital/homelab/actual-hardware/hw-journey/' | relative_url }}).
+
 ![HomeLab hardware overview showing the hypervisor, AI host, NAS and external backup]({{ '/assets/images/digital/homelab/lab-hardware-v1.png' | relative_url }})
 
 *Diagram: “4Rot3x – HW HomeLab”, version 1.1, August 2026, D. Stegmaier.*
