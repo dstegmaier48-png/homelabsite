@@ -5,6 +5,9 @@ baseurl: "/labsite"
 lang: en
 theme: minima
 
+plugins:
+  - jekyll-sitemap
+
 header_pages:
   - renovation/index.md
   - hidde-gardening/index.md
