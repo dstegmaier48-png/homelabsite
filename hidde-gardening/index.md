@@ -17,6 +17,7 @@ Garden projects, planting plans, observations and seasonal tasks.
 ## Articles
 
 - [Biomeiler]({{ '/hidde-gardening/biomeiler/' | relative_url }}) – recovering heat from compost and combining it with anaerobic biogas production
+- [Milk-Tank Hot Tub]({{ '/hidde-gardening/milk-tank-hot-tub/' | relative_url }}) – converting a stainless-steel milk tank into a wood-heated outdoor hot tub
 
 <!-- Add new articles here, for example:
 - [The first raised bed](raised-bed/)
