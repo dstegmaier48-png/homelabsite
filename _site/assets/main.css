@@ -756,6 +756,10 @@ table td {
   border-color: var(--border);
 }
 
+table th {
+  color: #000;
+}
+
 table tr:nth-child(even) {
   background-color: var(--surface);
 }

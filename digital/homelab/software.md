@@ -72,48 +72,48 @@ Home Assistant provides the central automation and sensor interface. The capture
 
 ## Portainer stacks
 
-The screenshots show the following unique stacks. “Inactive” reflects the orange status badge visible in Portainer; entries without that badge are listed as “No inactive badge shown” rather than assumed to be healthy.
+The screenshots show the following unique stacks and their main functions.
 
-| Stack | Screenshot status | Function |
-|---|---|---|
-| automatic111stablediffusion | Inactive | Stable Diffusion image generation |
-| crafty | Inactive | Crafty game-server management |
-| dockhand | No inactive badge shown | Docker management |
-| dozzle | No inactive badge shown | Container log viewer |
-| duplicati | No inactive badge shown | Backup management |
-| excalidraw | No inactive badge shown | Collaborative diagrams |
-| faster-whisper | No inactive badge shown | Speech-to-text processing |
-| filebrowser | No inactive badge shown | Browser-based file management |
-| frigate | Inactive | Network video recording and detection |
-| homeassistant | No inactive badge shown | Home automation |
-| homepage | No inactive badge shown | HomeLab dashboard |
-| immich | Inactive | Photo and video management |
-| it-tools | No inactive badge shown | Browser-based technical utilities |
-| lmstudioopenwebui | No inactive badge shown | Web interface for local LM Studio models |
-| mosquitto | No inactive badge shown | MQTT broker |
-| myspeed | No inactive badge shown | Network speed monitoring |
-| n8n | No inactive badge shown | Workflow automation |
-| nodecast-tv | Inactive | Media service |
-| notemark | No inactive badge shown | Notes service |
-| ollamaopenwebui | No inactive badge shown | Web interface for local Ollama models |
-| onedrive | No inactive badge shown | Cloud file synchronisation |
-| opennotebook | Inactive | Notebook and knowledge-management service |
-| openproject | Inactive | Project management |
-| pihole | No inactive badge shown | DNS-based network filtering |
-| piper | No inactive badge shown | Text-to-speech processing |
-| prunemate | Inactive | Docker image maintenance |
-| pulse | Inactive | Infrastructure monitoring |
-| roundcubemailclient | No inactive badge shown | Webmail client |
-| searxng | No inactive badge shown | Metasearch engine |
-| stellantisoauth | No inactive badge shown | Vehicle-service authentication |
-| syncthing | Inactive | Peer-to-peer file synchronisation |
-| twingate | No inactive badge shown | Remote network access |
-| upsnap | No inactive badge shown | Wake-on-LAN management |
-| uptimekuma | No inactive badge shown | Service availability monitoring |
-| vaultwarden | Inactive | Password-management server |
-| whatsupdocker | No inactive badge shown | Container update monitoring |
-| whisper-webui | No inactive badge shown | Web-based speech transcription |
-| zigbee2mqtt | No inactive badge shown | Zigbee-to-MQTT bridge |
+| Stack | Function |
+|---|---|
+| automatic111stablediffusion | Stable Diffusion image generation |
+| crafty | Crafty game-server management |
+| dockhand | Docker management |
+| dozzle | Container log viewer |
+| duplicati | Backup management |
+| excalidraw | Collaborative diagrams |
+| faster-whisper | Speech-to-text processing |
+| filebrowser | Browser-based file management |
+| frigate | Network video recording and detection |
+| homeassistant | Home automation |
+| homepage | HomeLab dashboard |
+| immich | Photo and video management |
+| it-tools | Browser-based technical utilities |
+| lmstudioopenwebui | Web interface for local LM Studio models |
+| mosquitto | MQTT broker |
+| myspeed | Network speed monitoring |
+| n8n | Workflow automation |
+| nodecast-tv | Media service |
+| notemark | Notes service |
+| ollamaopenwebui | Web interface for local Ollama models |
+| onedrive | Cloud file synchronisation |
+| opennotebook | Notebook and knowledge-management service |
+| openproject | Project management |
+| pihole | DNS-based network filtering |
+| piper | Text-to-speech processing |
+| prunemate | Docker image maintenance |
+| pulse | Infrastructure monitoring |
+| roundcubemailclient | Webmail client |
+| searxng | Metasearch engine |
+| stellantisoauth | Vehicle-service authentication |
+| syncthing | Peer-to-peer file synchronisation |
+| twingate | Remote network access |
+| upsnap | Wake-on-LAN management |
+| uptimekuma | Service availability monitoring |
+| vaultwarden | Password-management server |
+| whatsupdocker | Container update monitoring |
+| whisper-webui | Web-based speech transcription |
+| zigbee2mqtt | Zigbee-to-MQTT bridge |
 
 ---
 
