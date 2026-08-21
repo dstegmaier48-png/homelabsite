@@ -14,8 +14,8 @@ On this website, I showcase some of my personal projects related to my home, dig
 
 # ChangeLog
 
+- **21 August 2026** — [`f79cfbd`](https://github.com/dstegmaier48-png/labsite/commit/f79cfbd) Added the practical use and evaluation of Gemma 4 26B A4B QAT to the Hermes Agent article.
 - **21 August 2026** — [`6c8032e`](https://github.com/dstegmaier48-png/labsite/commit/6c8032e) Added an illustrated overview of the completely local Hermes personal AI agent and its everyday automation use cases.
 - **19 August 2026** — [`40f60b2`](https://github.com/dstegmaier48-png/labsite/commit/40f60b2) Renamed the root sections to Physicals and Digitals and moved Milk-Tank Hot-Tube directly below Physicals.
 - **19 August 2026** — [`20b13fe`](https://github.com/dstegmaier48-png/labsite/commit/20b13fe) Merged Renovation and Hidde into the new Physical section and simplified the Proxmox details table.
 - **19 August 2026** — [`4e6394c`](https://github.com/dstegmaier48-png/labsite/commit/4e6394c) Removed the Portainer screenshot-status column and changed table-header text to black.
-- **19 August 2026** — [`1a3b044`](https://github.com/dstegmaier48-png/labsite/commit/1a3b044) Moved the HW Journey photos into a compact responsive gallery at the end of the page.
