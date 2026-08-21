@@ -9,6 +9,12 @@ permalink: /digitals/hermes-agent/
 
 ![A local Hermes AI agent connecting a home-lab server with messaging, voice, smart-home controls, scheduled tasks and weather information]({{ '/assets/images/digital/hermes-agent/local-hermes-agent.png' | relative_url }})
 
+## Before Hermes
+
+Before switching to Hermes, I evaluated **ZeroClaw** as the foundation for my local personal agent. Its limitations became noticeable in practical use and sometimes actively obstructed the workflows I wanted to build. Hermes provides a much more flexible basis for combining conversations, tools, persistent context and recurring automations.
+
+I deliberately did not evaluate **OpenClaw**. It has already been covered extensively by many other users, and for this personal experiment it no longer carried the same open-source appeal that I was looking for.
+
 Hermes is my completely local personal AI agent. It runs in my own environment and combines a conversational interface with tools, scheduled jobs and access to selected local services. Telegram and voice messages make the agent available from almost anywhere, while data and automation remain under my control.
 
 ## What I use it for
