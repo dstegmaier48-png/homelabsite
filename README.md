@@ -2,6 +2,8 @@
 
 Markdown-based GitHub Pages website with the Physicals, Digitals, Résumé and Impressum root categories. Renovation and Hidde are sections below Physicals, while HomeLab is a section below Digitals.
 
+The footer displays metadata derived from Git for each individual page: its update date is the date of the most recent commit affecting that page, and its version is the number of commits that changed the page's Markdown source file. The GitHub Pages workflow checks out the complete history so these values are also available in production.
+
 ## Creating an article
 
 1. Copy `templates/article.md`.
