@@ -24,6 +24,12 @@ My main use cases are practical workflows that benefit from a persistent assista
 - **Voice interaction:** turning spoken requests into actions and providing German audio responses
 - **Content creation:** drafting short texts, diagrams, images and summaries
 
+## Model use and evaluation
+
+I am evaluating **Gemma 4 26B A4B QAT** as a model for Hermes in real everyday workflows rather than through isolated benchmark prompts. The evaluation covers German conversation, following multi-step instructions, using tools, maintaining local context and reliably completing scheduled or repeated tasks.
+
+The model is capable of handling a broad mix of organization, research and home-lab operations within the agent. At the same time, practical use has exposed the aspects that matter beyond answer quality: response latency, occasional provider timeouts, accurate interpretation of voice transcripts and dependable recovery when a tool or scheduled job fails. These observations help me tune the model configuration and decide which tasks should run automatically and which should retain explicit confirmation.
+
 ## Why local matters
 
 The project is also an experiment in digital sovereignty. I decide which models, services, users and devices Hermes may access. External actions can require confirmation, local files provide persistent context, and recurring jobs turn individual conversations into reliable workflows.

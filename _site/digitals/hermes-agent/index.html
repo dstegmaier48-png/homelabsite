@@ -64,6 +64,12 @@
   <li><strong>Content creation:</strong> drafting short texts, diagrams, images and summaries</li>
 </ul>
 
+<h2 id="model-use-and-evaluation">Model use and evaluation</h2>
+
+<p>I am evaluating <strong>Gemma 4 26B A4B QAT</strong> as a model for Hermes in real everyday workflows rather than through isolated benchmark prompts. The evaluation covers German conversation, following multi-step instructions, using tools, maintaining local context and reliably completing scheduled or repeated tasks.</p>
+
+<p>The model is capable of handling a broad mix of organization, research and home-lab operations within the agent. At the same time, practical use has exposed the aspects that matter beyond answer quality: response latency, occasional provider timeouts, accurate interpretation of voice transcripts and dependable recovery when a tool or scheduled job fails. These observations help me tune the model configuration and decide which tasks should run automatically and which should retain explicit confirmation.</p>
+
 <h2 id="why-local-matters">Why local matters</h2>
 
 <p>The project is also an experiment in digital sovereignty. I decide which models, services, users and devices Hermes may access. External actions can require confirmation, local files provide persistent context, and recurring jobs turn individual conversations into reliable workflows.</p>
