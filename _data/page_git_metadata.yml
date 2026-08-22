@@ -1,0 +1,52 @@
+---
+404.md:
+  updated_at: '2026-08-17'
+  version: 2
+digital/actual-hardware.md:
+  updated_at: '2026-08-22'
+  version: 6
+digital/hermes-agent.md:
+  updated_at: '2026-08-21'
+  version: 3
+digital/hw-journey.md:
+  updated_at: '2026-08-22'
+  version: 4
+digital/index.md:
+  updated_at: '2026-08-22'
+  version: 8
+digital/labsite.md:
+  updated_at: '2026-08-19'
+  version: 3
+digital/open-sun-tracker.md:
+  updated_at: '2026-08-19'
+  version: 3
+digital/software.md:
+  updated_at: '2026-08-22'
+  version: 7
+hidde-gardening/biomeiler.md:
+  updated_at: '2026-08-19'
+  version: 5
+hidde-gardening/index.md:
+  updated_at: '2026-08-19'
+  version: 8
+impressum.md:
+  updated_at: '2026-08-18'
+  version: 4
+impressum/privacy-policy.md:
+  updated_at: '2026-08-17'
+  version: 1
+index.md:
+  updated_at: '2026-08-22'
+  version: 41
+physical/index.md:
+  updated_at: '2026-08-19'
+  version: 2
+physical/milk-tank-hot-tube.md:
+  updated_at: '2026-08-19'
+  version: 4
+renovation/index.md:
+  updated_at: '2026-08-19'
+  version: 5
+resume/index.md:
+  updated_at: '2026-08-17'
+  version: 1

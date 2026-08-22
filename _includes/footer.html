@@ -2,10 +2,11 @@
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
   <div class="wrapper">
+    {%- assign page_metadata = site.data.page_git_metadata[page.path] -%}
     <div class="site-meta" aria-label="Informationen zur Seitenversion">
-      <span>Aktualisiert am <time datetime="{{ page.git_updated_at }}">{{ page.git_updated_at | date: "%d.%m.%Y" }}</time></span>
+      <span>Aktualisiert am <time datetime="{{ page_metadata.updated_at }}">{{ page_metadata.updated_at | date: "%d.%m.%Y" }}</time></span>
       <span aria-hidden="true">·</span>
-      <span>Seitenversion {{ page.git_version }}</span>
+      <span>Seitenversion {{ page_metadata.version }}</span>
     </div>
 
     <div class="footer-col-wrapper">

@@ -2,7 +2,7 @@
 
 Markdown-based GitHub Pages website with the Physicals, Digitals, Résumé and Impressum root categories. The Digitals pages use a flat structure without an additional HomeLab hierarchy.
 
-The footer displays metadata derived from Git for each individual page: its update date is the date of the most recent commit affecting that page, and its version is the number of commits that changed the page's Markdown source file. The GitHub Pages workflow checks out the complete history so these values are also available in production.
+The footer displays metadata derived from Git for each individual page: its update date is the date of the most recent commit affecting that page, and its version is the number of commits that changed the page's Markdown source file. Before each GitHub Pages build, `scripts/generate-page-metadata.rb` converts the complete Git history into Jekyll data so the values are also available in the safe production build.
 
 ## Creating an article
 
