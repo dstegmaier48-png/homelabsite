@@ -8,7 +8,16 @@ On this website, I showcase some of my personal projects related to my home, dig
 # Categories
 
 - [Physicals]({{ '/physicals/' | relative_url }}) – renovation, garden projects, and practical experiments
+  - [Renovation]({{ '/physicals/renovation/' | relative_url }})
+  - [Hidde]({{ '/physicals/hidde/' | relative_url }})
+  - [Milk-Tank Hot-Tube]({{ '/physicals/milk-tank-hot-tube/' | relative_url }})
 - [Digitals]({{ '/digitals/' | relative_url }}) – software, digital tools and workflows
+  - [Hermes Agent]({{ '/digitals/hermes-agent/' | relative_url }})
+  - [Actual Hardware]({{ '/digitals/actual-hardware/' | relative_url }})
+  - [HW Journey]({{ '/digitals/hw-journey/' | relative_url }})
+  - [Software]({{ '/digitals/software/' | relative_url }})
+  - [LabSite]({{ '/digitals/labsite/' | relative_url }})
+  - [Open Sun Tracker]({{ '/digitals/open-sun-tracker/' | relative_url }})
 - [Résumé]({{ '/resume/' | relative_url }}) – professional experience, education, certifications and expertise
 - [Impressum]({{ '/impressum/' | relative_url }}) – provider identification and contact information
 

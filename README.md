@@ -1,6 +1,6 @@
 # DaSte-Labs
 
-Markdown-based GitHub Pages website with the Physicals, Digitals, Résumé and Impressum root categories. Renovation and Hidde are sections below Physicals, while HomeLab is a section below Digitals.
+Markdown-based GitHub Pages website with the Physicals, Digitals, Résumé and Impressum root categories. The Digitals pages use a flat structure without an additional HomeLab hierarchy.
 
 The footer displays metadata derived from Git for each individual page: its update date is the date of the most recent commit affecting that page, and its version is the number of commits that changed the page's Markdown source file. The GitHub Pages workflow checks out the complete history so these values are also available in production.
 
@@ -12,14 +12,14 @@ The footer displays metadata derived from Git for each individual page: its upda
 4. Link the new article under **Articles** in the category's `index.md`.
 5. Store images under `assets/images/category/` and include them using `relative_url`.
 
-Example article at `digital/homelab/proxmox.md`:
+Example article at `digital/proxmox.md`:
 
 ```yaml
 ---
 layout: page
 title: "My Proxmox server"
 description: "Installing and configuring my Proxmox server"
-permalink: /digital/homelab/proxmox/
+permalink: /digitals/proxmox/
 ---
 ```
 

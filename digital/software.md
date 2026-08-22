@@ -2,7 +2,7 @@
 layout: page
 title: Software
 description: Current HomeLab software, virtualisation platform, dashboards, home automation and container services.
-permalink: /digitals/homelab/software/
+permalink: /digitals/software/
 ---
 
 # Software
@@ -113,4 +113,4 @@ The screenshots show the following unique stacks and their main functions.
 
 ---
 
-[Back to HomeLab]({{ '/digitals/homelab/' | relative_url }}) · [Back to Digitals]({{ '/digitals/' | relative_url }})
+[Back to Digitals]({{ '/digitals/' | relative_url }}) · [Back to the home page]({{ '/' | relative_url }})
